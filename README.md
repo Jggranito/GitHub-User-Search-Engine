@@ -1,4 +1,4 @@
-# Quest-JavaScript-Avançado
+# DevFinder Github Search
 
 Esta é uma solução para a Quest JavaScript Avançado. As quests do curso DevQuest do [@devemdobro](instagram.com/devemdobro), são desafios que nos ajudam a aprimorar e desenvolver nossas habilidades de codificação.
 
