@@ -35,7 +35,7 @@ O projeto é totalmente responsivo, adaptando-se a dispositivos móveis e deskto
 
 | Desktop View | Mobile View |
 | :---: | :---: |
-| ![Desktop](./src/screenshot/desktop_2.png) | ![Mobile](./src/screenshot/mobile_1.png) |
+| ![Desktop](./src/screenshot/desktop_2.png) | ![Mobile](./src/screenshot/mobile_2.png) |
 
 ## 💡 Aprendizados e Desafios
 Durante o desenvolvimento, os principais desafios técnicos superados foram:
