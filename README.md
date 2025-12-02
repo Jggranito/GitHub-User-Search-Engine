@@ -46,7 +46,7 @@ Durante o desenvolvimento, os principais desafios técnicos superados foram:
 ## 🔗 Links
 
 - **Repositório:** [Acesse o Código](https://github.com/Jggranito/Github-User-Search-Engine)
-- **Live Preview:** [Ver Projeto Online](https://jggranito.github.io/Github-User-Search-Engine/)
+- **Live Preview:** [Ver Projeto Online](https://jggranito.github.io/GitHub-User-Search-Engine/)
 
 ---
 
