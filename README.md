@@ -1,76 +1,54 @@
-# DevFinder Github Search
+# 🔍 GitHub User Search Engine
 
-Esta é uma solução para a Quest JavaScript Avançado. As quests do curso DevQuest do [@devemdobro](instagram.com/devemdobro), são desafios que nos ajudam a aprimorar e desenvolver nossas habilidades de codificação.
+![Project Preview](./src/screenshot/desktop_1.png)
 
-## Índice
+> **Uma aplicação web performática para busca e análise de perfis de desenvolvedores utilizando a API pública do GitHub.**
 
-- [Visão geral](#visão-geral)
-   - [O desafio](#O-desafio)
-   - [Captura de tela](#captura-de-tela)
-   - [Links](#links)
-- [Meu processo](#meu-processo)
-   - [Construído com](#construído-com)
-- [Autor](#autor)
+## 📖 Sobre o Projeto
+Este projeto foi desenvolvido para consolidar conhecimentos avançados em **JavaScript Vanilla (ES6+)**. O objetivo foi criar uma interface limpa e responsiva que consome dados reais, trata requisições assíncronas e manipula o DOM dinamicamente para exibir métricas detalhadas de usuários e repositórios.
 
-## Visão geral
+Diferente de buscas simples, esta ferramenta foca em trazer uma "radiografia" da atividade recente do desenvolvedor, filtrando eventos específicos como Pushes e Criação de Repositórios.
 
-### O desafio
+## 🚀 Funcionalidades
 
-A quest consiste em usar a página desenvolvida em um exercício anterior e adicionar algumas solicitações:
+- **Busca de Perfil Completa:** Exibição de Avatar, Bio, Localização e métricas sociais (Seguidores/Seguindo).
+- **Análise de Repositórios:** Listagem dos principais repositórios com indicadores de qualidade:
+  - ⭐ Stars (Estrelas)
+  - 🍴 Forks
+  - 👁️ Watchers
+  - 💻 Linguagem predominante
+- **Monitoramento de Atividades:** Feed dinâmico mostrando os últimos 10 eventos relevantes (Commits/Pushs e Criação de Repos).
+- **Tratamento de Erros:** Feedback visual amigável caso o usuário não seja encontrado.
 
-- Solicitação 1:
-   Agora além de trazer:
-      Imagem do usuário
-      Nome completo do usuário
-      Login do usuário
-      Bio do usuário.
-   
-   Você precisa mostrar também
-      Número de seguidores do usuário
-      Número de pessoas que o usuário está
-      seguindo
+## 🛠️ Tecnologias Utilizadas
 
-- Solicitação 2:
-   Você deve apresentar na tela uma lista com até 10 últimos eventos do usuário no GitHub. Os eventos que serão apresentados são de dois tipos: CreateEvent e PushEvent apenas.
-   Para cada atividade você deve mostrar o nome do repositório e a mensagem do evento.
+O projeto foi construído sem frameworks, focando na pureza e performance do código:
 
-- Solicitação 3:
-   Agora além de trazer:
-      Nome do repositório
-      Link do repositório
+- **Core:** HTML5 Semântico, CSS3 (Flexbox/Grid & Custom Properties).
+- **Lógica:** JavaScript (ES6+).
+- **Integração:** Fetch API & Async/Await para consumo de dados.
+- **Arquitetura:** Manipulação direta do DOM e Modularização de código.
 
-   Você precisa mostrar também
-      Quantidade de forks do repositório
-      Quantidade de estrelas do repositório
-      Quantidade de watchers do repositório
-      Mostrar a linguagem de programação do repositório
+## 📱 Layout
 
-### Capturas de tela
+O projeto é totalmente responsivo, adaptando-se a dispositivos móveis e desktops.
 
-- Desktop - ![](./src/screenshot/desktop_1.png) 
+| Desktop View | Mobile View |
+| :---: | :---: |
+| ![Desktop](./src/screenshot/desktop_2.png) | ![Mobile](./src/screenshot/mobile_1.png) |
 
-![](./src/screenshot/desktop_2.png)
+## 💡 Aprendizados e Desafios
+Durante o desenvolvimento, os principais desafios técnicos superados foram:
+1. **Orquestração de Chamadas Assíncronas:** Encadeamento de múltiplas requisições (Dados do User -> Repositórios -> Eventos) garantindo performance.
+2. **Filtros de Eventos:** Lógica para limpar o JSON de retorno da API e exibir apenas eventos relevantes (PushEvent e CreateEvent).
+3. **Validação de Dados:** Tratamento de campos nulos ou inexistentes na API para evitar quebras na UI.
 
-- Mobile  -
+## 🔗 Links
 
-![](./src/screenshot/mobile_1.png)
+- **Repositório:** [Acesse o Código](https://github.com/Jggranito/Github-User-Search-Engine)
+- **Live Preview:** [Ver Projeto Online](https://jggranito.github.io/Github-User-Search-Engine/)
 
-### Links
+---
 
-- URL da solução: [https://github.com/Jggranito/Quest-JS-Avancado](https://github.com/Jggranito/Quest-JS-Avancado)
-- URL do site ao vivo: [https://jggranito.github.io/Quest-JS-Avancado/](https://jggranito.github.io/Quest-JS-Avancado/)
-
-## Meu processo
-
-### Construído com
-
-- Marcação HTML5 semântica
-- Propriedades personalizadas de CSS
-- Validação com JS
-- API com JS
-- Tratamento de arquivos json
-
-## Autor
-
-- Mentor de frontend - [@Jggranito](https://www.frontendmentor.io/profile/Jggranito)
-- LinkedIn - [João Gabriel Granito](https://www.linkedin.com/in/jo%C3%A3o-gabriel-granito-77666a262/)
+Desenvolvido por **[João Gabriel Granito](https://www.linkedin.com/in/jo%C3%A3o-gabriel-granito-77666a262/)**
+*Focado em Desenvolvimento Front-End e Mobile*
